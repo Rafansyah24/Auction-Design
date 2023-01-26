@@ -1183,3 +1183,133 @@ body {
   .upcom .grid-list { grid-template-columns: repeat(4, 1fr); }
 
 }
+
+.sub-menu-wrap{ 
+  position: absolute; 
+  top: 80%; 
+  right: 10%; 
+  width: 320px; 
+  max-height:0px; 
+  overflow: hidden; 
+  transition: max-height 1s; 
+} 
+.sub-menu-wrap.open-menu{ 
+  max-height: 400px; 
+} 
+.sub-menu{ 
+  background: #fff;
+  border: 1px solid var(--gunmetal);
+  box-shadow: var(--shadow-5);
+  padding: 20px; 
+  margin: 10px; 
+  border-radius: 5%;
+} 
+.uer-info{ 
+  display: flex; 
+  align-items: center; 
+} 
+.uer-info h3{ 
+  font-weight: 500; 
+} 
+.uer-info img{ 
+  width: 60px; 
+  border-radius: 50%; 
+  margin-right: 15px; 
+} 
+.sub-menu hr{ 
+  border: 0; 
+  height: 1px; 
+  width: 100%; 
+  background: #ccc; 
+  margin: 15px 0 10px; 
+
+} 
+.sub-menu-link{ 
+  display: flex; 
+  align-items: center; 
+  text-decoration: none; 
+  color: #525252; 
+  margin: 12px 0; 
+} 
+.sub-menu-link p{ 
+  width: 100%; 
+} 
+.sub-menu-link img{ 
+  width: 40px; 
+  padding: 8px;  
+} 
+.sub-menu-link span{ 
+  font-size: 22px; 
+  transform: transfrom 0.5s; 
+} 
+.sub-menu-link:hover span{ 
+  transform: translateX(5px); 
+} 
+.sub-menu-link:hover p{ 
+  font-weight: 600; 
+}
+
+.sub-pay-wrap{ 
+  position: absolute; 
+  top: 80%; 
+  right: 10%; 
+  width: 320px; 
+  max-height:0px; 
+  overflow: hidden; 
+  transition: max-height 1s; 
+} 
+.sub-pay-wrap.open-pay{ 
+  max-height: 400px; 
+} 
+.sub-pay{ 
+  background: #fff;
+  border: 1px solid var(--gunmetal);
+  box-shadow: var(--shadow-5);
+  padding: 20px; 
+  margin: 10px; 
+  border-radius: 5%;
+} 
+.uer-info{ 
+  display: flex; 
+  align-items: center; 
+} 
+.uer-info h3{ 
+  font-weight: 500; 
+} 
+.uer-info img{ 
+  width: 60px; 
+  border-radius: 50%; 
+  margin-right: 15px; 
+} 
+.sub-pay hr{ 
+  border: 0; 
+  height: 1px; 
+  width: 100%; 
+  background: #ccc; 
+  margin: 15px 0 10px; 
+
+} 
+.sub-pay-link{ 
+  display: flex; 
+  align-items: center; 
+  text-decoration: none; 
+  color: #525252; 
+  margin: 12px 0; 
+} 
+.sub-pay-link p{ 
+  width: 100%; 
+} 
+.sub-pay-link img{ 
+  width: 40px; 
+  padding: 8px;  
+} 
+.sub-pay-link span{ 
+  font-size: 22px; 
+  transform: transfrom 0.5s; 
+} 
+.sub-pay-link:hover span{ 
+  transform: translateX(5px); 
+} 
+.sub-pay-link:hover p{ 
+  font-weight: 600; 
+}

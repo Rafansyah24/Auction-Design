@@ -151,3 +151,16 @@ const accordionInit = function (currentAccordion) {
 }
 
 for (let i = 0, len = accordions.length; i < len; i++) { accordionInit(accordions[i]); }
+
+let subMenu = document.getElementById("subMenu"); 
+
+function toggleMenu(){ 
+    subMenu.classList.toggle("open-menu"); 
+} 
+
+let subPay = document.getElementById("subPay"); 
+
+function togglePay(){ 
+    subPay.classList.toggle("open-pay"); 
+} 
+

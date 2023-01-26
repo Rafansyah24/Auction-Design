@@ -67,14 +67,41 @@
 
       <div class="header-action">
 
-        <button class="btn-icon primary" aria-label="wallet">
+        <button class="btn-icon primary" aria-label="wallet" onclick="togglePay()">
           <ion-icon name="wallet-outline"></ion-icon>
         </button>
 
+        <div class="sub-pay-wrap" id="subPay">  
+          <div class="sub-pay"> 
+              <div class="uer-info"> 
+                  <h2>SALDO</h2> 
+              </div> 
+              <hr> 
+          </div> 
+        </div> 
+
         <button class="btn-icon profil-btn" aria-label="Metalink account: Fiona doe">
-          <a href="profile.html"><img src="./assets/images/profile.jpg" width="50" height="50" alt="Fiona doe" class="img-cover"></a>
+          <img src="./assets/images/profile.jpg" width="50" height="50" alt="Fiona doe" class="img-cover" onclick="toggleMenu()">
         </button>
-        
+      
+        <div class="sub-menu-wrap" id="subMenu">  
+          <div class="sub-menu"> 
+              <div class="uer-info"> 
+                  <h2>RAFANSYAH</h2> 
+              </div> 
+              <hr> 
+
+              <a href="profile.html" class="sub-menu-link"> 
+                  <img src="/assets/images/person-outline.svg" alt="">
+                  <p>My Profile</p>
+              </a> 
+
+              <a href="http://" class="sub-menu-link"> 
+                  <img src="/assets/images/log-in-outline.svg" alt="">
+                  <p>Logout</p> 
+              </a> 
+          </div> 
+      </div> 
 
         <button class="nav-toggle-btn" aria-label="menu toggle" data-nav-toggler>
           <ion-icon name="menu-outline" aria-hidden="true" class="default-icon"></ion-icon>
@@ -141,7 +168,7 @@
                   <button class="btn btn-primary">
                     <ion-icon name="flash" aria-hidden="true"></ion-icon>
 
-                    <span class="span">Place Bid</span>
+                    <a href="detail.html"><span class="span">Place Bid</span></a>
                   </button>
 
                   <div class="countdown">
