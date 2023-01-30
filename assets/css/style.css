@@ -777,7 +777,6 @@ body {
 
 /* Market Page */
 .page-header{
-  background-image: url(/assets/images/b1.jpg);
   width: 100%;
   height: 45vh;
   background-size: cover;
@@ -1513,4 +1512,232 @@ body {
       padding-top: 0;
   }
 }
+
+.in{
+  position: absolute;
+  width: 10%;
+  height: 35%;
+  left: 18.7%;
+  top: 34%;
+  padding: 10px;
+  background: #E6EAFF;
+  border-radius: 40px;
+}
+
+.im img{
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  height: 45vh;
+
+}
+
+.pr p{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 20%;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+
+.pos {
+  position: absolute;
+  width: 280px;
+  height: 620px;
+  left: 100px;
+  margin-top: 65%;
+  background:  #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.profile {
+  position: relative;
+  --section-padding: 180px 64px;
+  text-align: center;
+  height: 1300px;
+}
+
+.kd {
+  position: absolute;
+  width: 260px;
+  height: 340px;
+  left: 435px;
+  margin-top: 75%;
+  background: #FFFFFF;
+  box-shadow: 2px 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.avatar img{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 150px;
+  top: 284px;
+  border-radius: 50%;
+}
+
+.nama-pengguna p{
+  position: absolute;
+  width: 174px;
+  height: 45px;
+  left: 11.3%;
+  top: 490px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+  }
+
+  .dec {
+    position: absolute;
+    width: 250px;
+    height: 72px;
+    left: 7.9%;
+    top: 544px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #888888;
+  }
+
+  .avatar2 img{
+    position: absolute;
+    width: 220px;
+    height: 186px;
+    left: 455px;
+    margin-top: 27%;
+    border-radius: 10px;
+  }
+  .learn {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 45%;
+    top: 905px;
+
+    background: #E6EAFF;
+    border-radius: 40px;
+  }
+
+  .learn .lr p {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 28%;
+    top: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #315AFE;
+  }
+
+  .nama-produk p{
+    position: absolute;
+    width: 55px;
+    height: 23px;
+    left: 30%;
+    top: 660px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .nama-produk img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 30%;
+    top: 690px;
+    border-radius: 50%;
+  }
+
+  .pla {
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    left: 30%;
+    top: 750px;
+    background: #315AEF;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  .pla p {
+    color: white;
+    margin-left: 14px;
+    margin-top: -5px;
+  }
+
+  .nama-akun p{
+    position: absolute;
+    width: 78px;
+    height: 15px;
+    left: 33%;
+    top: 690px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+  }
+
+  .nama-owner p{
+    position: absolute;
+    width: 39px;
+    height: 15px;
+    left: 33%;
+    top: 710px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #888888;
+  }
+
+  .bid {
+    position: absolute;
+    width: 60px;
+    height: 15px;
+    left: 40%;
+    top: 692px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #888888;
+  }
+
+  .uang p{
+    position: absolute;
+    width: 47px;
+    height: 15px;
+    left: 40%;
+    top: 710px;
+    font-weight: 400;
+    font-size: 11px;
+    color: #888888;
+  }
+
+  .detail p{
+    position: absolute;
+    width: 56px;
+    height: 15px;
+    left: 45.6%;
+    top: 700px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #888888;
+}
+
+
 
